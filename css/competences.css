@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.competences{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+margin-top:30vh;
+  min-height:100vh;
+  margin-bottom:  10vh;
+}
+.competences .textformation{
+  margin-left: 0.5vw;
+}
+.contai{
+  position: relative;
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 20px;
+margin-left: 10vw;
+}
+.contai .card1{
+  position: relative;
+  height: 250px;
+  background: #fff;
+  display: flex;
+  width: 45%;
+  margin: 30px 0;
+}
+.contai .card1 .imgBx1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #120E4D;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+.imgcompetences{
+  width: 30%;
+  height: 50%;
+  z-index: 100;
+}
+.contai .card1:hover .imgBx1{
+width: 150px;
+height: 150px;
+left: -57px;
+top: calc(50% - 75px);
+transition: 0.5s ease-in-out;
+background: midnightblue;
+z-index: 300;
+}
+.contai .card1 .content2 h3{
+ color: #178CEE;
+margin-left: 6vw;
+padding-bottom: 2vh;
+}
+.contai .card1 .content2  p{
+color: gray;
+margin-left: 1vw;
+padding-bottom: 2vh;
+}
+.icone{
+  margin-left: 3vw;
+}
+.contai .card1 .imgBx1::before{
+content: attr(data-text);
+position: absolute;
+bottom: 1vh;
+left: 0;
+width: 100%;
+text-align: center;
+font-size: 3em;
+color: rgba(255, 255, 255, 0.2);
+font-weight: 700;
+}
+.contai .card1 .imgBx1 img{
+  max-width: 100px;
+  transition: 0.5s ease-in-out;
+}
+.contai .card1:hover .imgBx1 img{
+  max-width: 75px;
+}
+.contai .card1 .content2{
+  position: absolute;
+  right: 0;
+  width: calc(100% - 75px);
+  height: 100%;
+  padding: 20px;
+  box-shadow: 0px 10px 10px 5px #B0A7DF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contai .card1 .content2 h3{
+  margin-bottom: 5px;
+  font-size: 24px;
+}
+@media (max-width:992px) {
+.contai{
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.contai .card1{
+  width: 400px;
+}
+}
+@media (max-width:768px) {
+  .contai .card1{
+    max-width: 300px;
+    flex-direction: column;
+    height: auto;
+  }
+  .contai .card1 .imgBx1{
+    position: relative;
+  }
+  .contai .card1 .imgBx1,
+   .contai .card1:hover .imgBx1{
+    width: 100%;
+    height: 200px;
+    left: 0;
+  }
+  .contai .card1 .imgBx1 img,
+  .contai .card1:hover .imgBx1 img{
+    max-width: 100px;
+  }
+  .contai .card1 .content2{
+  position: relative;
+  width: 100%;
+  }
+}
+.ic1{
+  width: 20%;
+  height: 20%;
+}
+.ic2{
+  width: 20%;
+  height: 20%;
+}
+.ic3{
+  width: 20%;
+  height: 20%;
+}

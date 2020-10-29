@@ -1,0 +1,74 @@
+.forma{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  position: relative;
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+
+}
+.card{
+  position: relative;
+  max-width: 300px;
+  height: 215px;
+  background: gray;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in-out;
+}
+.card:hover{
+height: 35rem;;
+}
+.imgBox{
+  position: relative;
+  width: 260px;
+  height: 260px;
+  top: -60px;
+  left: 25px;
+  z-index: 1;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+}
+.images{
+max-width: 100%;
+border-radius: 4px;
+}
+.content{
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out;
+}
+.card:hover .content{
+visibility: visible;
+opacity: 1;
+margin-top: -10px;
+transition-delay: 0.3s;
+}
+.textformation{
+  z-index: 2;
+      position: absolute;
+margin-top: 3rem;
+      color: lightsteelblue;
+      writing-mode: vertical-rl;
+text-orientation: mixed;
+      font-family: "Monument Extended";
+      font-size: 4rem;
+    margin-left: -70rem;
+      letter-spacing: 1px;
+}
+.textformation h2{
+        color: midnightblue;
+}

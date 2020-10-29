@@ -1,0 +1,97 @@
+/* .textformation1{
+  z-index: 2;
+  margin-top: -1rem;
+  color: lightsteelblue;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  font-family: "Monument Extended";
+  font-size: 4rem;
+  margin-left:70vw;
+  letter-spacing: 1px;
+} */
+.realisationslide{
+  margin: 0;
+  padding: 0;
+  margin-left:5vh;
+  width: 90%;
+  height: 110vh;
+  font-family: 'poppins';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contenuslide{
+  position: relative;
+  margin-top: -2vh;
+  max-width: 50vw;
+  transform: skewY(-20deg);
+}
+.contenuslide .imgBx{
+  position: relative;
+  width: 100%;
+  height: 30vh;
+  transform-origin: bottom;
+  transform: skewX(42deg);
+}
+.contenuslide .imgBx img{
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  max-width: 100%;
+  transition: 0.5s;
+}
+.contenuslide .imgBx:hover img:nth-child(3){
+  transform: translate(5vw,-5vw);
+}
+.contenuslide .imgBx:hover img:nth-child(2){
+  transform: translate(2vw,-2vw);
+  opacity: 0.5;
+}
+.contenuslide .imgBx:hover img:nth-child(1){
+  transform: translate(0vw,0vw);
+  opacity: 0.1;
+}
+ .titreprojet{
+  position: relative;
+  color: #000;
+  font-size: 8em;
+}
+.contenuslide .skew{
+  transform-origin: top;
+  transform: skewX(46deg);
+  font-weight: bold;
+
+
+}
+.contenuslide .skew p{
+color: #000;
+font-size: 1em;
+}
+.contenuslide .skew p:hover{
+transform: skewX(-20deg);
+color: black;
+transition: 2s;
+}
+.contenuslide .skew a{
+position: relative;
+padding: 10px 30px;
+display: inline-block;
+background: transparent;
+color:#000;
+transform-origin: top;
+margin-top: 20px;
+border: 2px solid silver;
+transform: skewX(-45deg);
+text-decoration: none;
+letter-spacing: 2px;
+font-size: 20px;
+}
+.contenuslide .skew a:hover{
+  background: #87CEEB;
+  color: white;
+  border: 2px solid #87CEEB;
+  font-size: 1rem;
+  transition: 1s;
+}

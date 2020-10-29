@@ -1,0 +1,59 @@
+.apropos{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /*padding: 50px 0;*/
+  transform-style: preserve-3d;
+
+}
+
+.apropos .box{
+  position: relative;
+  width: 40%;
+  height: 10%;
+  /*margin: 30% 50%;*/
+  background:#000;
+  background: #000;
+  transform-style: preserve-3d;
+
+}
+
+.apropos .box:hover{
+box-shadow: 50px 50px 80px rgba(0, 0, 255, 0.6);
+
+
+}
+.apropos .box .imgBx{
+  position:absolute;
+  margin-top: 11%;
+}
+.moi{
+  margin-top: 2vh;
+  margin-left: -10vw;
+}
+
+.apropos .box  .contentBx{
+  position:absolute;
+margin-top: 50%;
+  margin-left: 11%;
+ background-color: #120E4D;
+ opacity: 0.9;
+transform: translateZ(20px) scaleY(0);
+padding: 5% 4%;
+transform-origin: top;
+transition: 0.5s;
+transform-style: preserve-3d;
+
+}
+.apropos .box:hover .contentBx{
+  transform: translateZ(50px) scaleZ(1);
+}
+.contentBx h2{
+  color: white;
+  font-family: "Monument Extended";
+}
+.apres{
+  color: white;
+}
