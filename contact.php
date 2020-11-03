@@ -43,6 +43,8 @@
 	<div class="container contact">
 		<div class="texthorizcontact"><h2>CONTACT</h2>
 		</div>
+		<div class="texthorizcontac"><h2>CONTACT</h2>
+		</div>
 		<div class="contact-box">
 			<div class="left"></div>
  <form name="contact_form" method="post" action="" class="form">
@@ -69,6 +71,7 @@ if(isset($_POST['email'])) {
     $email_subject = "Le sujet de votre email:demande de contact";
 
     function died($error) {
+
         // message d'erreur
         echo'<p class="mid-msgereur">Nous sommes désolés, mais des erreurs ont été détectées dans le .
         formulaire que vous avez envoyé.</p>';
@@ -76,7 +79,9 @@ if(isset($_POST['email'])) {
         echo '<p class="mid-msgereur1">Ces erreurs apparaissent ci-dessous.</p>';
         echo '<p class="mid-msgereur3">'.$error.'</p><br /><br />';
         echo '<p class="mid-msgereur2">Merci de corriger ces erreurs.</p><br /><br />';
-        die();
+
+			  die();
+
     }
 
 
@@ -125,7 +130,7 @@ echo'<p class="mid-msgcorrect">
       died($error_message);
     }
 
-    $email_message = "Demande de contact.\n\n";
+    $email_message = "Demande de contact de portfolio.\n\n";
     $email_message .= "Nom: ".$nom."\n";
     $email_message .= "Email: ".$email."\n";
     $email_message .= "Telephone: ".$telephone."\n";
@@ -139,6 +144,7 @@ echo'<p class="mid-msgcorrect">
     mail($email_to, $email_subject, $email_message, $headers);
     ?>
     <?php
-		echo'<p class="mid-msgcorrect">
-				Merci de nous avoir contacter. Nous vous contacterons très bientôt..</p>';
+		echo'<p class="mid-msgcorrecte">
+				Merci de m avoir contacter. je vais vous contactez très bientôt..:)</p>';
+
 		}  ?>

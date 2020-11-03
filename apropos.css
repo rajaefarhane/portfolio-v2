@@ -57,3 +57,21 @@ transform-style: preserve-3d;
 .apres{
   color: white;
 }
+@media  (max-width: 435px) {
+.moi{
+  margin-top: 20vh;
+margin-left: -30vw;
+width: 100vw;
+height: 60vh;
+}
+.apropos .box .contentBx {
+    position: absolute;
+    margin-top: 190%;
+    width: 70vw;
+    margin-left: -15vw;
+    background-color: #120E4D;
+    opacity: 0.9;
+    padding: 1% 4%;}
+  
+
+}

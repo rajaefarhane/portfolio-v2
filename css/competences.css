@@ -153,3 +153,35 @@ font-weight: 700;
   width: 20%;
   height: 20%;
 }
+.texthoric{
+  display: none;
+}
+@media  (max-width: 435px) {
+
+  .textformation{
+    display: none;
+  }
+  .texthoric {
+    display: block;
+z-index: 2;
+position: absolute;
+margin-top: -130rem;
+color: #178CEE;
+text-orientation: mixed;
+font-family: "Monument Extended";
+font-size: 3rem;
+margin-left: -4rem;
+letter-spacing: 1px;
+padding-top: 10vh;
+padding-bottom: 10vh;
+  }
+  .texthoric h2{
+          -webkit-text-stroke: 3px  #178CEE;
+          color:#120E4D;
+          margin-left: 15vw;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+}

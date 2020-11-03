@@ -10,6 +10,9 @@
   <div class="textformation">
         <h2 >COMPÉTENCES</h2>
   </div>
+  <div class="texthoric">
+        <h2 >COMPÉTENCES</h2>
+  </div>
   <div class="contai">
     <div class="card1">
       <div class="imgBx1" data-text="DESIGN">

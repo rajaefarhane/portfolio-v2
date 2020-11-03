@@ -21,29 +21,25 @@ text-orientation: mixed;
         width: 100%;
         height: 100%;
 }
-.boutonslide {
-    margin-top: -50vh;
+.portfolio-slider__left-cont__grid__person{
+  background-color: #120E4D;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      display: flex;
+      justify-content: center;
 }
-button.w3-button.w3-black.w3-display-left {
-    margin-left: 50vw;
-    margin-top: 2vh;
+.portfolio-slider__left-cont__grid__person h1{
+color: white;
+display: flex;
+justify-content: center;
+text-align: center;
+align-items: center;
+font-weight: 900;
+    font-size: 2rem;
+    transform: rotate(-12deg);
 
 }
-.w3-display-right{
-  margin-left: 5vw;
-}
-.w3-button1{
-  background-color: transparent;
-  border: none;
-  width:2vw;
-  height: 5vh;
-}
-.w3-button{
-  background-color: transparent;
-  border: none;
-  width:2vw;
-  height: 5vh;
-}
+
 .contenuslide {
   width: 40vw;
   height: 90vh;
@@ -197,6 +193,7 @@ i {
   color: #178CEE;
   font-weight: bold;
   margin-bottom: 25px;
+  font-size: 2rem;
 }
 .portfolio-slider__left-cont__name-cont {
   display: -webkit-box;
@@ -209,7 +206,7 @@ i {
   max-width: 90%;
   margin-right: 30px;
   color: #444444;
-  font-size: 32px;
+
   font-weight: bold;
 }
 .portfolio-slider__left-cont__name-cont__name span {
@@ -259,6 +256,13 @@ opacity: 0.9;
      object-position: center;
 }
 .portfolio-slider__left-cont__grid__person:not(.active) {
+  font-weight: 400;
+  font-size: 0.5rem;
+  opacity: 0.5;
+}
+.portfolio-slider__left-cont__grid__person:not(.active)  h1 ) {
+  font-weight: 400;
+  font-size: 0.5rem;
   opacity: 0.5;
 }
 .portfolio-slider__left-cont__grid__copy {
@@ -278,7 +282,9 @@ opacity: 0.9;
   -webkit-transition: all ease-in-out .5s;
   transition: all ease-in-out .5s;
   opacity: 0;
+  width: 8vw;
 }
+
 .portfolio-slider__left-cont__grid__copy p.active {
   opacity: 1;
 }
@@ -348,6 +354,18 @@ opacity: 0.9;
   -webkit-transition: opacity ease-in-out 0.5s;
   transition: opacity ease-in-out 0.5s;
 }
+ .a {
+  position: absolute;
+  top: -1vh;
+  left: 0;
+  opacity: 0;
+  width: 50%;
+  height: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: opacity ease-in-out 0.5s;
+  transition: opacity ease-in-out 0.5s;
+}
 .portfolio-slider__image-slider-cont__slider img.active {
   opacity: 1;
 }
@@ -355,7 +373,7 @@ opacity: 0.9;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   justify-content: space-around;
   width: 120px;
   height: 35px;
@@ -365,6 +383,62 @@ opacity: 0.9;
   bottom: 0;
   z-index: -1;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 
+}
+.test {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  justify-content: space-around;
+  width: 120px;
+  height: 35px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+
+  z-index: -1;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+
+}
+.portfolio-slider__image-slider-cont__slider.active .test {
+  z-index: 3;
+}
+  .texthorizs{
+    display: none
+  }
+@media  (max-width: 435px) {
+
+  .texthoriz1{
+    display: none;
+  }
+  .texthorizs {
+      display: block;
+      z-index: 2;
+      position: absolute;
+      margin-top: -13rem;
+      color: #178CEE;
+      text-orientation: mixed;
+      font-family: "Monument Extended";
+      font-size: 4rem;
+      margin-left: -2rem;
+      letter-spacing: 1px;
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+  }
+  .texthorizs h2{
+          -webkit-text-stroke: 3px  #178CEE;
+          color:#120E4D;
+          margin-left: 15vw;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+.portfolio-slider {
+    width: 90vw!important;
+    margin-left: -10vw!important;
+}
 }

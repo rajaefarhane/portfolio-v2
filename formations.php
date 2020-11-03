@@ -7,7 +7,9 @@
   <body>
 
   <div class="formations">
-
+    <div class="texthorif">
+          <h2 >Formations</h2>
+    </div>
 <div class="container">
   <div class="textformation">
         <h2 >Formations</h2>

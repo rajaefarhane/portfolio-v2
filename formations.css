@@ -100,3 +100,38 @@ object-fit: cover;
   color:#120E4D;
 
 }
+.texthori{
+  display: none;
+}
+.texthorif{
+  display: none;
+}
+@media  (max-width: 435px) {
+
+  .textformation{
+    display: none;
+  }
+  .texthorif {
+      display: block;
+      z-index: 2;
+      position: absolute;
+      margin-top: -13rem;
+      color: #178CEE;
+      text-orientation: mixed;
+      font-family: "Monument Extended";
+      font-size: 4rem;
+      margin-left: -1rem;
+      letter-spacing: 1px;
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+  }
+  .texthorif h2{
+          -webkit-text-stroke: 3px  #178CEE;
+          color:#120E4D;
+          margin-left: 15vw;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+}

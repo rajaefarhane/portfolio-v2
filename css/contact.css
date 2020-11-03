@@ -21,7 +21,199 @@
         width: 100%;
         height: 100%;
 }
+.texthorizcontac{
+  display: none;
+}
+.versionmobile{
+  display: none;
+}
+@media  (max-width: 435px) {
 
+
+  .texthorizcontact{
+    display: none;
+  }
+  .texthorizcontac {
+    display: block;
+z-index: 2;
+position: absolute;
+margin-top: -50rem;
+color: #178CEE;
+text-orientation: mixed;
+font-family: "Monument Extended";
+font-size: 3rem;
+margin-left: -7rem;
+letter-spacing: 1px;
+padding-top: 10vh;
+padding-bottom: 10vh;
+  }
+  .texthorizcontac h2{
+    -webkit-text-stroke: 3px  #178CEE;
+    color:#120E4D;
+    margin-left: 15vw;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
+}
+.iconereseaux ul {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    display: block!important;
+}
+.iconereseaux ul li {
+    position: relative;
+    list-style: none;
+    width: 30vw!important;
+    height: 18vh;
+    margin: 0 60px;
+    transform: rotate(-30deg) skew(25deg);
+    background: #ccc;
+}
+
+element.style {
+}
+.iconereseaux ul li {
+    margin-top: 5vh!important;
+  }
+  .contact-box{
+    margin-top: 20vh;
+  }
+  .droit {
+    margin-left: -9vw;
+    margin-top: 11vh;
+    font-size: 10px;
+}
+.nomfooter1 {
+  display: none;
+}
+.mes {
+    color: #120E4D;
+    font-weight: 200;
+    font-size: 10px;
+    margin-left: -10vw;
+}
+.vesriondesctop{
+  display: none;
+}
+.versionmobile{
+  display: block;
+    margin-top: -40vh;
+}
+.foote{
+  height: 70vh;
+    margin-top: -51vh;
+
+}
+.foote .farhane {
+    position: absolute;
+    margin-top: 35vh;
+    margin-left: 33vw;
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.foote .farhane1 {
+    position: absolute;
+    margin-top: 42vh;
+    margin-left: 25vw;
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+.foote .farhane2 {
+    position: absolute;
+    margin-top: 46vh;
+    margin-left: 32vw;
+    color: white;
+    font-family: montserrat;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.foote .farhane3 {
+    position: absolute;
+    margin-top: 49vh;
+    margin-left: 25vw;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.foote .farhane3 {
+    position: absolute;
+    margin-top: 49vh;
+    margin-left: 25vw;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.foote .farhane4 {
+    position: absolute;
+    margin-top: 53vh;
+    margin-left: 25vw;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.droit{
+    position: absolute;
+    margin-top: 63vh;
+    margin-left: 25vw;
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1rem;
+}
+p.mid-msgcorrecte {
+    margin-left: 20vw;
+    font-size: 1rem;
+}
+p.mid-msgereur1, .mid-msgereur{
+  color: red;
+  font-weight: bold;width: 100vw;
+  padding: 1vw;
+
+}
+}
+.mid-msgcorrecte{
+  position: absolute;
+  margin-top: -22vh;
+  color: red;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 22vw;
+  padding-bottom: 2vh;
+}
+p.mid-msgcorrect {
+    color: red;
+    margin-top: -100vh;
+    font-weight: bold;
+    margin-left: 5vw;
+    padding-bottom: 5vh;
+}
+p.mid-msgereur3{
+  color: green;
+    font-weight: bold;width: 20vw;
+    padding: 1vw;
+
+}
+
+p.mid-msgereur1, .mid-msgereur{
+  color: red;
+  font-weight: bold;width: 20vw;
+  padding: 1vw;
+}
+p.mid-msgereur2 {
+    color: red;
+    font-weight: bold;
+    margin-left: 3vw;
+}
 .contact{
 	position: relative;
 	width: 80%;

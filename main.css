@@ -23,6 +23,9 @@ body{
   z-index: 1000;
 
 }
+.nav{
+  display: none;
+}
 .navbar ul{
   margin-top: -7rem;;
   margin-left: 80vw;
@@ -73,7 +76,9 @@ transform-origin: right;
 transform: scale(1);
 z-index: -1;
 }
-
+.texthoria{
+  display: none;
+}
 /*************fin menu*************/
 .zoom{
   width: 100%;
@@ -115,6 +120,7 @@ padding-bottom: 5rem;
   width: 100%;
   transform: translateY(33%);
 }
+
 @media  (max-width: 1214px) {
   .zoom #layer1{
     margin-top: -3rem;
@@ -126,6 +132,10 @@ padding-bottom: 5rem;
 
 
   }
+  .navbar{
+    display: none;
+  }
+
 }
 @media  (max-width: 1093px) {
   .zoom #layer1{
@@ -158,6 +168,9 @@ padding-bottom: 5rem;
   }
   .zoom #layer2{
     margin-top: 10rem;
+  }
+  .navbar{
+    display: none;
   }
 }
 
@@ -227,20 +240,146 @@ padding-bottom: 5rem;
 
   }
   .zoom #layer2{
-    margin-top: 26rem;
+    margin-top: 29rem;
   }
 }
 @media  (max-width: 435px) {
   .zoom #layer1{
-    margin-top: 60vh;
+    margin-top: 65vh;
     left: 50%;
 
 
   }
   .zoom #layer2{
-    margin-top: 30rem;
+    margin-top: 35rem;
   }
+  .accueil{
+    margin-left: -1rem!important;
+      margin-top: 5vh;
+      font-size: 1em!important;
+  }
+  #logo {
+    margin-left: 9%!important;}
+  .navbar{
+    display: none;
+  }
+  .nav{
+    margin-left:35vw;
+    margin-top: 5vh;
+    padding-bottom: 10vh;
+    display: block;
+
+  }
+  .nav ul li{
+    list-style: none;
+    margin-top: 20px;
+    transition: 0.5s;
+
+  }
+  .nav ul li a{
+    display: block;
+    position: relative;;
+    text-decoration: none;
+    padding: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: gray;
+    text-transform: uppercase;
+    transition: 0.5s;
+    height: 5vh;
+    left: 3vw;
+  }
+  .nav ul li a:before  {
+  content: '';
+  position: absolute;
+  top: 0 ;
+  left: -3vw;
+  width: 50%;
+  height: 100%;
+  background: rgba(0, 0, 255, 0.1);
+  border-radius: 9px;
+  transition: 0.5s;
+  transform-origin: right;
+  transform: scale(1);
+  z-index: -1;
+  }
+  .sec .titre1 {
+    font-size: 3rem!important;
+  }
+  .titre1::before {
+    left: 4vw!important;
+  }
+  .texthoria {
+      display: block;
+      z-index: 2;
+      position: absolute;
+      margin-top: -5rem;
+      color: #178CEE;
+      text-orientation: mixed;
+      font-family: "Monument Extended";
+      font-size: 4rem;
+      margin-left: 0rem;
+      letter-spacing: 1px;
+      padding-top: 10vh;
+      padding-bottom: 10vh;
+  }
+  .texthoria h2{
+          -webkit-text-stroke: 3px  #178CEE;
+          color:#120E4D;
+          margin-left: 15vw;
+    margin-top: -10vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+
 }
+.vesriondesctop{
+  display: none;
+}
+.nomfooter1 {
+    display: none;
+}
+.nomfooter {
+    display: none;
+}
+p.mid-msgcorrect {
+    color: red!important;
+    font-weight: bold;
+    margin-left: 33vw;
+    margin-top: -20vh!important;
+    padding-bottom: 3vh;
+}
+p.mid-msgereur3{
+  color: green;
+    font-weight: bold;
+    width: 100vw!important;
+
+}
+p.mid-msgereur3{
+  color: green;
+    font-weight: bold;
+    width: 100vw!important;
+
+}
+p.mid-msgereur1, .mid-msgereur{
+  color: red;
+  width: 100vw!important;
+}
+p.mid-msgereur2 {
+    color: red;
+    font-weight: bold;
+    margin-left: 20vw;
+    width: 100vw!important;
+}
+p.mid-msgcorrecte {
+    margin-left: 20vw;
+    font-size: 1rem;
+
+}
+.mid-msgereur {
+  width: 100vw;
+}
+  }
+
 @media  (max-width: 378px) {
   .zoom #layer1{
     margin-top: 64vh;
@@ -355,7 +494,7 @@ margin-top: -32vh;
 /*************footer*****************/
 .foote{
   margin-top: -41vh;
-  height: 40vh;
+  height: 42vh;
   background-color: #178CEE;
   z-index: 0;
 
